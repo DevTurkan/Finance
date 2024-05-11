@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border-radius: 0;
+	border: 0;
+}
+
+html,
+body {
+	width: 100%;
+	min-height: 100vh;
+	float: left;
+	background-color: rgba(37, 43, 66, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+button {
+	cursor: pointer;
+	background-color: transparent;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.same-btn {
+	width: max-content;
+	padding: 15px 25px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 700;
+	font-family: "Montserrat-Regular";
+}
+
+.fw_700 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.fw2_700 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.fw3_700 {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 57px;
+}
+
+.fw_600 {
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.fw_400 {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+}

@@ -1,0 +1,605 @@
+.site-blocks {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container .navbar {
+    width: 90%;
+}
+
+.brand-name {
+    font-family: "Montserrat-Regular";
+    margin-right: 100px;
+}
+
+.nav-item a,
+.footer .link-list li a {
+    font-family: "Montserrat-SemiBold";
+}
+
+.navbar .btn:last-child {
+    background-color: rgba(35, 166, 240, 1);
+}
+
+
+.main-text {
+    width: 573px;
+}
+
+.main-text h1 {
+    font-family: "Montserrat-SemiBold";
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+}
+
+.main-text p {
+    font-family: "Montserrat-Regular";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    width: 376px;
+    margin: 21px 0;
+}
+
+.btns .btn {
+    border-radius: 26px;
+}
+
+.btns .btn:first-child {
+    background-color: rgba(35, 166, 240, 1);
+}
+
+.btns .btn:last-child {
+    border: .72px solid rgba(255, 255, 255, 1);
+}
+
+.user {
+    width: 100%;
+}
+
+.container .strategy {
+    margin-top: 35px;
+    padding: 50px 0;
+}
+
+.strategy .row,
+.clients .row,
+.faq .row,
+.contact .row,
+.footer .row {
+    width: 90%;
+}
+
+.strategy h2,
+.clients h2,
+.faq h2,
+.pricing h2,
+.contact h2 {
+    font-family: "Montserrat-SemiBold";
+    padding: 0;
+}
+
+.strategy p,
+.clients p,
+.clients .card .card-body p,
+.faq p,
+.pricing p,
+.contact p,
+.footer p {
+    font-family: "Montserrat-Regular";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0 0;
+    padding: 0;
+}
+
+.strategy .row:first-child,
+.clients .row:first-child,
+.faq .row:first-child,
+.pricing .row:first-child {
+    margin-bottom: 15px;
+}
+
+.str-card {
+    border-radius: 2px;
+    border: 1px solid rgba(225, 225, 225, 1);
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgba(250, 250, 250, 1);
+    width: 360px;
+}
+
+.str-card h5 {
+    font-family: "Montserrat-Regular";
+    color: rgba(115, 115, 115, 1);
+    margin-left: 15px;
+}
+
+.btn-w {
+    width: 90%;
+    padding: 45px 0;
+}
+
+.container .clients {
+    padding: 112px 0;
+}
+
+.clients .row:last-child,
+.faq .row:last-child,
+.pricing .row:last-child {
+    margin-top: 65px;
+}
+
+.clients .card {
+    width: 744px;
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 40px 35px;
+
+}
+
+.clients .card .card-body {
+    width: 434px;
+}
+
+.clients .card .card-body p {
+    color: rgba(115, 115, 115, 1);
+    margin-top: 30px;
+}
+
+.stars {
+    margin: 15px 0 15px;
+}
+
+.clients .card .card-body h3,
+.pricing-card .card .card-body h3,
+.footer h3 {
+    color: rgba(37, 43, 66, 1);
+    font-family: 'Montserrat-Bold';
+    margin-bottom: 8px;
+}
+
+.clients .card .card-body h6,
+.faq-card-text h6,
+.pricing-card .pricing-content .content-data,
+.author h6 {
+    color: rgba(115, 115, 115, 1);
+    font-family: "Montserrat-Regular";
+}
+
+.container .faq {
+    padding: 80px 0;
+}
+
+.faq-card {
+    border-radius: 9px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 1);
+    width: 333px;
+    margin-top: 30px;
+}
+
+.faq-card-content {
+    width: 100%;
+}
+
+.faq-card-text {
+    width: 90%;
+}
+
+.faq-card-text h5,
+.pricing-card .card .card-body h5 {
+    color: rgba(37, 43, 66, 1);
+    font-family: 'Montserrat-Bold';
+}
+
+.faq-card-text h5,
+.faq-card-text h6 {
+    width: 100%;
+}
+
+.container .pricing {
+    padding: 112px 0;
+}
+
+.pricing .row {
+    width: 82%;
+}
+
+.pricing-card {
+    width: 350px;
+}
+
+.pricing-card .card {
+    border-radius: 10px;
+    padding: 50px 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(35, 166, 240, 1);
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pricing-card .card .card-body h5 {
+    color: rgba(115, 115, 115, 1);
+    margin: 30px 0;
+    width: 160px;
+}
+
+.price {
+    margin: 0 0 30px;
+}
+
+.price h2 {
+    color: rgba(35, 166, 240, 1);
+    font-family: 'Montserrat-Bold';
+}
+
+.card-body .price .sign h3 {
+    color: rgba(35, 166, 240, 1);
+    font-family: 'Montserrat-Bold';
+    width: max-content;
+}
+
+.card-body .price .sign h5 {
+    color: rgba(142, 194, 242, 1);
+    font-family: "Montserrat-Regular";
+    width: max-content;
+}
+
+.pricing-card .pricing-content {
+    width: max-content;
+}
+
+.pricing-card .pricing-content .content-data {
+    color: rgba(37, 43, 66, 1);
+}
+
+.content-data:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.select-status {
+    margin-right: 10px;
+}
+
+.card-body .btn {
+    background-color: rgba(35, 166, 240, 1);
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.pricing-card:nth-child(2) .card {
+    background-color: rgba(35, 166, 240, 1);
+    padding: 70px 40px;
+}
+
+.pricing-card:nth-child(2) .card h3,
+.pricing-card:nth-child(2) .card h5,
+.pricing-card:nth-child(2) .card h2,
+.pricing-card:nth-child(2) .card .content-data {
+    color: rgba(255, 255, 255, 1);
+}
+
+.pricing-card:nth-child(2) .card .card-body .btn {
+    color: rgba(35, 166, 240, 1) !important;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container .contact {
+    padding: 80px 0;
+}
+
+.contact p {
+    width: 438px;
+}
+
+.contact .input-group {
+    height: 58px;
+}
+
+.contact .input-group .btn {
+    background: rgba(35, 166, 240, 1);
+    color: rgba(255, 255, 255, 1);
+    width: max-content;
+    font-family: "Montserrat-Regular";
+}
+
+input::placeholder,
+input::-webkit-input-placeholder {
+    color: rgba(115, 115, 115, 1);
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: "Montserrat-SemiBold";
+}
+
+.container .footer {
+    padding: 80px 0;
+}
+
+.footer h3 {
+    color: rgba(255, 255, 255, 1);
+    margin: 0 0 16px;
+}
+
+.footer p {
+    margin: 0 0 16px;
+    width: 213px;
+}
+
+.footer .social li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer .link-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.author {
+    background-color: rgba(250, 250, 250, 1);
+    padding: 25px 0;
+}
+
+.author h6 {
+    width: max-content;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 320px) {
+    .main-text h1 {
+        font-size: 20px !important;
+        line-height: 45px !important;
+    }
+
+    .main-text p {
+        font-size: 16px !important;
+        width: 250px !important;
+    }
+
+    .str-card img {
+        width: 55px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 576px) {
+
+    .main-text h1 {
+        font-size: 28px !important;
+        line-height: 50px !important;
+    }
+
+    .main-text p {
+        font-size: 16px !important;
+        width: 310px !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .faq-card-text h6 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .brand-name {
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    .other-icons img {
+        width: 15px;
+    }
+
+    .navbar-toggler {
+        width: 30px;
+        padding: 0;
+    }
+
+    .contact {
+        display: none !important;
+    }
+
+    .clients .card-body {
+        width: 275px !important;
+    }
+
+    .author h6 {
+        max-width: 280px;
+    }
+
+    .pricing-card .card-body h3 {
+        font-size: 20px !important;
+    }
+
+    .price h2 {
+        font-size: 36px !important;
+    }
+
+    .pricing-content .content-data {
+        font-size: 11px !important;
+    }
+
+    .pricing-content .content-data .select-status {
+        width: 25px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        margin-bottom: 25px;
+    }
+
+    .sign-btns {
+        display: none !important;
+    }
+
+    .other-icons {
+        display: flex !important;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-box {
+        margin-top: 50px;
+    }
+
+    .main-text h1 {
+        font-size: 40px;
+        line-height: 57px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .main-text p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .strategy .btns {
+        align-items: flex-start;
+    }
+
+    .btns .btn:last-child {
+        margin-top: 20px;
+    }
+
+    .str-card,
+    .faq-card,
+    .pricing-card {
+        width: 100%;
+    }
+
+    .contact p {
+        margin-bottom: 30px;
+    }
+
+    .footer .f:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .container {
+        max-width: 830px;
+    }
+
+    .main-text {
+        padding-left: 30px;
+    }
+
+    .main-text h1 {
+        font-size: 40px;
+        line-height: 57px;
+        font-weight: 700;
+    }
+
+    .main-text p {
+        font-size: 18px;
+    }
+
+    .str-card {
+        width: 300px;
+    }
+
+    .faq-card {
+        width: 320px;
+    }
+
+    .pricing-card {
+        width: 100%;
+    }
+
+    .pricing .row {
+        width: 60%;
+    }
+
+    .contact p {
+        width: 315px;
+    }
+
+    .footer h3 {
+        font-size: 20px;
+    }
+
+    .footer p {
+        width: 170px;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .main-text h1 {
+        font-size: 50px;
+    }
+
+    .main-text p {
+        font-size: 18px;
+    }
+
+    .faq-card {
+        width: 265px;
+    }
+
+    .pricing-card {
+        width: 254px;
+    }
+
+    .pricing-card .card-body h3 {
+        font-size: 20px !important;
+    }
+
+    .price h2 {
+        font-size: 36px !important;
+    }
+
+    .pricing-content .content-data {
+        font-size: 11px !important;
+    }
+
+    .pricing-content .content-data .select-status {
+        width: 25px !important;
+    }
+
+    .footer p {
+        width: 195px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .str-card {
+        width: 320px;
+    }
+
+    .faq-card {
+        width: 295px;
+    }
+
+    .pricing-card {
+        width: 300px;
+    }
+}
